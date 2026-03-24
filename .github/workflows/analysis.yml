@@ -35,13 +35,13 @@ jobs:
       
       - name: 🏃 Run analysis notebook
         run: |
-          jupyter nbconvert --to notebook --execute notebooks/Fuel_data_analysis.ipynb \
-            --output-dir=notebooks/ --output=Fuel_data_analysis_executed.ipynb
+          jupyter nbconvert --to notebook --execute Fuel_data_analysis.ipynb \
+            --output=Fuel_data_analysis_executed.ipynb
       
       - name: 📄 Convert to HTML report
         run: |
           mkdir -p reports
-          jupyter nbconvert --to html notebooks/Fuel_data_analysis_executed.ipynb \
+          jupyter nbconvert --to html Fuel_data_analysis_executed.ipynb \
             --output-dir=reports/ --output=analysis_report.html
       
       - name: 📈 Generate summary statistics
