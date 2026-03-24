@@ -1,4 +1,4 @@
-# 🚗 Fuel Data Analysis
+# Fuel Data Analysis
 
 > A comprehensive data science analysis of 1M+ fuel consumption records from 20 countries spanning 2005-2025.
 
@@ -12,11 +12,11 @@
 
 ---
 
-## 📋 Quick Summary
+## Quick Summary
 
 This project analyzes **1,174,870 fuel consumption transactions** across a global user base. Through rigorous data cleaning and feature engineering, we've achieved an **88/100 data quality score** and uncovered key insights about fuel efficiency, regional variations, and user behavior patterns.
 
-### 🎯 Key Findings
+### Key Findings
 
 | Metric | Value | Notes |
 |--------|-------|-------|
@@ -29,32 +29,32 @@ This project analyzes **1,174,870 fuel consumption transactions** across a globa
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Fuel-data-analysis/
 │
-├── 📓 notebooks/                 # Jupyter notebooks for analysis
+├──  notebooks/                 # Jupyter notebooks for analysis
 │   └── Fuel_data_analysis.ipynb  # Main analysis (118 cells)
 │
-├── 📊 data/
+├──  data/
 │   ├── raw/                      # Original datasets
 │   │   └── logbook_assignment1.csv
 │   └── processed/                # Cleaned datasets (generated)
 │
-├── 📖 docs/                      # Documentation & guides
+├──  docs/                      # Documentation & guides
 │   ├── data_dictionary.md        # Field descriptions
 │   ├── data_quality.md           # Quality assessment methodology
 │   ├── methodology.md            # Analysis approach
 │   └── regions.md                # Geographic insights
 │
-├── 🔧 scripts/                   # Utility scripts
+├──  scripts/                   # Utility scripts
 │   └── generate_summary.py       # CI/CD summary generation
 │
-├── 🤖 .github/workflows/         # GitHub Actions automation
+├──  .github/workflows/         # GitHub Actions automation
 │   └── analysis.yml              # Workflow definition
 │
-├── 📋 requirements.txt           # Python dependencies
+├──  requirements.txt           # Python dependencies
 ├── .gitignore                    # Git ignore rules
 ├── README.md                     # This file
 ├── QUICK_REFERENCE.md            # Quick lookup guide
@@ -64,7 +64,7 @@ Fuel-data-analysis/
 
 ---
 
-## 📊 What's Inside
+## What's Inside
 
 ### Notebooks
 - **Fuel_data_analysis.ipynb** (118 cells)
@@ -83,7 +83,7 @@ Fuel-data-analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -122,15 +122,15 @@ jupyter nbconvert --to html notebooks/Fuel_data_analysis_executed.ipynb \
 
 ---
 
-## 🔄 Automated Reports
+## Automated Reports
 
 This project uses **GitHub Actions** to automatically:
 
-✅ Run the analysis notebook on every push  
-✅ Generate HTML reports  
-✅ Create summary statistics  
-✅ Upload artifacts for easy access  
-✅ Run on schedule (weekly Sunday 00:00 UTC)  
+ Run the analysis notebook on every push  
+ Generate HTML reports  
+ Create summary statistics  
+ Upload artifacts for easy access  
+ Run on schedule (weekly Sunday 00:00 UTC)  
 
 ### View Reports
 Check the **Actions** tab to:
@@ -168,13 +168,13 @@ Check the **Actions** tab to:
 
 ---
 
-## 🔍 Data Quality Assessment
+## Data Quality Assessment
 
 | Stage | Records | Quality | Status |
 |-------|---------|---------|--------|
-| Raw | 1,174,870 | 15/100 | ❌ Extreme outliers, invalid dates |
-| Date Cleaned | 1,037,908 | 50/100 | ⚠️ Numerical outliers remain |
-| Outliers Removed | 1,028,000 | 88/100 | ✅ Production-ready |
+| Raw | 1,174,870 | 15/100 |  Extreme outliers, invalid dates |
+| Date Cleaned | 1,037,908 | 50/100 | Numerical outliers remain |
+| Outliers Removed | 1,028,000 | 88/100 | Production-ready |
 
 **Quality Improvements:**
 - Median/mean gap narrowed significantly (outliers removed)
@@ -184,7 +184,7 @@ Check the **Actions** tab to:
 
 ---
 
-## 💡 Key Lessons Learned
+## Key Lessons Learned
 
 1. **Data relationships are gold** - MPG formula enabled recovery of 50k+ imputable records
 2. **Median > Mean in dirty data** - Showed core data was valid despite extreme outliers
@@ -195,7 +195,7 @@ Check the **Actions** tab to:
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | Document | Purpose |
 |----------|---------|
@@ -207,7 +207,7 @@ Check the **Actions** tab to:
 
 ---
 
-## 🤖 Technologies Used
+## Technologies Used
 
 - **Python 3.10+** - Core language
 - **Pandas & NumPy** - Data manipulation
@@ -218,7 +218,7 @@ Check the **Actions** tab to:
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ```
 ┌─────────────┐
@@ -254,7 +254,7 @@ Check the **Actions** tab to:
 
 ---
 
-## 🔄 GitHub Actions Automation
+## GitHub Actions Automation
 
 The workflow automatically:
 
@@ -277,7 +277,7 @@ View the workflow: [.github/workflows/analysis.yml](.github/workflows/analysis.y
 
 ---
 
-## 📖 How to Use This Project
+## How to Use This Project
 
 ### For Data Exploration
 1. Open `notebooks/Fuel_data_analysis.ipynb`
@@ -301,7 +301,7 @@ View the workflow: [.github/workflows/analysis.yml](.github/workflows/analysis.y
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but improvements are welcome!
 
@@ -317,7 +317,7 @@ Suggested areas:
 
 ---
 
-## 📋 Future Enhancements
+## Future Enhancements
 
 - [ ] Dashboard with Plotly static HTML export
 - [ ] Predictive modeling for efficiency trends
@@ -326,15 +326,10 @@ Suggested areas:
 - [ ] Cost optimization recommendations
 - [ ] API for accessing processed data
 
----
-
-## 📄 License
-
-This project is provided as-is for portfolio/educational purposes.
 
 ---
 
-## ✨ Acknowledgments
+## Acknowledgments
 
 - **Team:** Suhail Patel, Sahil Maharaj, Salmaan Ebrahim, Amaan Hanslod
 - **Data Source:** Company fuel logging websites
@@ -345,12 +340,12 @@ This project is provided as-is for portfolio/educational purposes.
 ## 📞 Contact
 
 For questions about this analysis:
-- 📧 Open an issue on GitHub
-- 🔗 Check the [docs/](docs/) folder for detailed information
-- 📚 Review the notebook for step-by-step explanations
+-  Open an issue on GitHub
+-  Check the [docs/](docs/) folder for detailed information
+-  Review the notebook for step-by-step explanations
 
 ---
 
 **Last Updated:** March 2025  
 **Analysis Scope:** 2005-2025 | 1.03M records | 20 countries  
-**Data Status:** ✅ Production Ready
+**Data Status:**  Production Ready
